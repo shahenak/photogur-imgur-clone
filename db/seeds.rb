@@ -5,3 +5,15 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Picture.create(
+  title:  'Sea Power',
+  artist: 'Stephen Scullion',
+  url:    'http://bitmakerlabs.s3.amazonaws.com/photogur/wave.jpg'
+)
+
+Picture.create(
+  title:  'Into the Poppies',
+  artist: 'John Wilhelm',
+  url:    'http://bitmakerlabs.s3.amazonaws.com/photogur/girl.jpg'
+)
